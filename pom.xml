@@ -85,8 +85,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -117,9 +117,7 @@
 				<version>3.1.1</version>
 				<configuration>
 					<additionalJOption>-Xdoclint:none</additionalJOption>
-					<links>
-						<link>http://docs.oracle.com/javase/8/docs/api/</link>
-					</links>
+					<quiet>true</quiet>
 				</configuration>	
 				<executions>
 					<execution>
